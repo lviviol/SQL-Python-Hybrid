@@ -70,6 +70,7 @@ for item in items:
     print(item)
 
 new_csv_file_path = 'clients_data_selected.csv'
+#At this point, Bill is not in this csv file since first name does not contain "e"
 
 with open(new_csv_file_path, 'w', newline='') as file:
     csv_writer = csv.writer(file)
